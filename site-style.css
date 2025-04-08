@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+}
+
+.table-container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menu-sections {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-section {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    border-right: 1px solid #eee;
+}
+
+.menu-section:last-child {
+    border-right: none;
+}
+
+.section-title {
+    color: #2c3e50;
+    border-bottom: 2px solid #2f69cd;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ddd;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.item-name {
+    font-weight: bold;
+    flex: 2;
+    font-size: 14px;
+}
+
+.item-price {
+    flex: 1;
+    text-align: center;
+    color: #0b08be;
+    font-size: 14px;
+}
+
+.item-code {
+    font-size: 12px;
+    color: #7f8c8d;
+    margin-top: 3px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.reset-btn {
+    background-color: #333333;
+}
+
+.reset-btn:hover {
+    background-color: #555;
+}
+
+.print-btn {
+    background-color: #2f69cd;
+}
+
+.print-btn:hover {
+    background-color: #1e4f8b;
+}
+
+.calculate-btn {
+    background-color: #e74c3c;
+}
+
+.calculate-btn:hover {
+    background-color: #c0392b;
+}
+
+.quantity-btn {
+    background-color: #43cbed;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quantity {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.order-summary {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.order-total {
+    font-weight: bold;
+    font-size: 18px;
+    border-top: 2px solid #2c3e50;
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-total-amount::before {
+    content: "RM ";
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+}

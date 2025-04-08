@@ -1,0 +1,54 @@
+{
+    "consultant": [
+        { "code": "SD3CY00413", "name": "CONSUL VMAT PROF FEE", "price": 4575 },
+        { "code": "SD2AQ03557", "name": "CONSUL VMAT PROF FEE *DISCOUNTED (D)", "price": 4000 },
+        { "code": "SD2AQ03558", "name": "CONSUL VMAT PROF FEE *DISCOUNTED (E)", "price": 3200 },
+        { "code": "SFEAJ00143", "name": "SRS/SRT ONCOLOGIST FEE", "price": 4575 },
+        { "code": "SD3CY00253", "name": "CONSUL 3D CONFORMAL F FEE", "price": 3800 },
+        { "code": "SD2AQ00427", "name": "CONSUL 3D CONFORMAL F FEE *DISCOUNTED (D)", "price": 3300 },
+        { "code": "SD2AQ00428", "name": "CONSUL 3D CONFORMAL F FEE *DISCOUNTED (E)", "price": 2500 },
+        { "code": "SD3CY00252", "name": "CONSUL 3D REPLAN F FEE", "price": 570 },
+        { "code": "SD2AQ00425", "name": "CONSUL 3D REPLAN F FEE *DISCOUNTED (D)", "price": 510 },
+        { "code": "SD2AQ00426", "name": "CONSUL 3D REPLAN F FEE *DISCOUNTED (E)", "price": 410 }
+    ],
+    "planning1": [
+        { "code": "SONHY00169", "name": "CT PLANNING SIMULATION", "price": 415.2 },
+        { "code": "SDSEQ00021", "name": "CT SCAN INJECTOR USAGE SURCHARGE", "price": 217.1 },
+        { "code": "SPSLD00073", "name": "IOPAMIRO 370MG/ML INJ (IOPAMIDOL) 100ML B OP", "price": 241 },
+        { "code": "SONHY00247", "name": "4D CT FREE BREATHING", "price": 300 },
+        { "code": "NMSGM00265", "name": "KLARITY HEADSTEP HEAD MASK", "price": 401 },
+        { "code": "NMSGM00264", "name": "KLARITY HEADSTEP HEAD AND SHOULDER", "price": 949.5 },
+        { "code": "SONMM00004", "name": "IMMOBILIZATION FEE", "price": 210 }
+    ],
+    "planning2": [
+        { "code": "SONHY00157", "name": "IMRT/VMAT PLANNING FEE", "price": 2575 },
+        { "code": "SONHY00158", "name": "IMRT/VMAT REPLAN FEE", "price": 1287.5 },
+        { "code": "SONHY00250", "name": "SBRT COMPUTER PLANNING", "price": 6150 },
+        { "code": "SONHY00270", "name": "SBRT COMPUTER PLANNING 2ND ISO (SAME AREA) VERSA HD", "price": 4910 },
+        { "code": "SONHY00130", "name": "3D CONFORMAL PLANNING FEE", "price": 1030 },
+        { "code": "SONHY00164", "name": "3D REPLAN FEE", "price": 420 },
+        { "code": "SEQFL00004", "name": "IMRT/VMAT QA", "price": 1591.6 },
+        { "code": "SONHY00251", "name": "SBRT QA", "price": 1050 },
+        { "code": "SEQFL00001", "name": "3D CONFORMAL QA", "price": 324.5 }
+    ],
+    "treatment": [
+        { "code": "SONHY00139", "name": "IMAGE VERIFICATION (RADICAL)", "price": 3090 },
+        { "code": "SONHY00138", "name": "IMAGE VERIFICATION (PALLIATIVE)", "price": 1030 },
+        { "code": "SONHZ00136", "name": "4D CT RESPIRATORY GATING", "price": 2040 },
+        { "code": "SONHY00159", "name": "IMRT/VMAT SINGLE FRACTION", "price": 420 },
+        { "code": "SONHY00154", "name": "IMRT/VMAT - 15 FRACTIONS", "price": 5757 },
+        { "code": "SONHY00160", "name": "IMRT/VMAT - 20 FRACTIONS", "price": 7676 },
+        { "code": "SONHY00155", "name": "IMRT/VMAT - 25 FRACTIONS", "price": 9500 },
+        { "code": "SONHY00161", "name": "IMRT/VMAT - 30 FRACTIONS", "price": 11400 },
+        { "code": "SONHY00156", "name": "IMRT/VMAT - 35 FRACTIONS", "price": 13300 },
+        { "code": "SONHY00184", "name": "SBRT TREATMENT", "price": 685 },
+        { "code": "SONHY00131", "name": "3D CONFORMAL SINGLE FRACTION", "price": 283.5 },
+        { "code": "SONHY00128", "name": "3D CONFORMAL - 5 FRACTION", "price": 1321 },
+        { "code": "SONHY00132", "name": "3D CONFORMAL - 10 FRACTION", "price": 2642 },
+        { "code": "SONHY00129", "name": "3D CONFORMAL - 15 FRACTION", "price": 3886 },
+        { "code": "SONHY00135", "name": "3D CONFORMAL - 20 FRACTION", "price": 5181.5 },
+        { "code": "SONHY00133", "name": "3D CONFORMAL - 25 FRACTION", "price": 6476.6 },
+        { "code": "SONHY00136", "name": "3D CONFORMAL - 30 FRACTION", "price": 7772 },
+        { "code": "SONHY00134", "name": "3D CONFORMAL - 35 FRACTION", "price": 8977.5 }
+    ]
+}
